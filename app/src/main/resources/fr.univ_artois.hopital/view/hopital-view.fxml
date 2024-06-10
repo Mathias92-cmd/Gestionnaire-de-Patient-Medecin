@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="fr.univ_artois.hopital.controller.HopitalController">
+   <top>
+      <MenuBar>
+         <Menu text="Fichier">
+            <MenuItem text="Quitter" onAction="#handleQuitter"/>
+         </Menu>
+      </MenuBar>
+   </top>
+   <center>
+      <TabPane>
+         <Tab text="Patients">
+            <VBox>
+               <ListView fx:id="listViewPatients"/>
+               <HBox spacing="10" alignment="CENTER">
+                  <Button text="Ajouter" onAction="#handleAjouterPatient"/>
+                  <Button text="Modifier" onAction="#handleModifierPatient"/>
+                  <Button text="Supprimer" onAction="#handleSupprimerPatient"/>
+               </HBox>
+            </VBox>
+         </Tab>
+         <Tab text="Médecins">
+            <VBox>
+               <ListView fx:id="listViewMedecins"/>
+               <HBox spacing="10" alignment="CENTER">
+                  <Button text="Ajouter" onAction="#handleAjouterMedecin"/>
+                  <Button text="Modifier" onAction="#handleModifierMedecin"/>
+                  <Button text="Supprimer" onAction="#handleSupprimerMedecin"/>
+               </HBox>
+            </VBox>
+         </Tab>
+         <Tab text="Rendez-vous">
+            <VBox>
+               <ListView fx:id="listViewRendezVous"/>
+               <HBox spacing="10" alignment="CENTER">
+                  <Button text="Ajouter" onAction="#handleAjouterRendezVous"/>
+                  <Button text="Modifier" onAction="#handleModifierRendezVous"/>
+                  <Button text="Supprimer" onAction="#handleSupprimerRendezVous"/>
+               </HBox>
+            </VBox>
+         </Tab>
+      </TabPane>
+   </center>
+   <bottom>
+      <Label text="Gestion de l'Hôpital - Université d'Artois"/>
+   </bottom>
+</BorderPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="fr.univ_artois.hopital.controller.AjouterPatientController" spacing="10" alignment="CENTER">
+    <Label text="Nom du patient:"/>
+    <TextField fx:id="nomTextField"/>
+    <Label text="Prénom du patient:"/>
+    <TextField fx:id="prenomTextField"/>
+    <Label text="Age:"/>
+    <TextField fx:id="ageTextField"/>
+    <Label text="Groupe sanguin:"/>
+    <TextField fx:id="groupeSanguinTextField"/>
+    <Label text="Sexe:"/>
+    <TextField fx:id="sexeTextField"/>
+    <Label text="Taille:"/>
+    <TextField fx:id="tailleTextField"/>
+    <Label text="Poids:"/>
+    <TextField fx:id="poidsTextField"/>
+    <Label text="Symptômes:"/>
+    <TextField fx:id="symptomesTextField"/>
+    <Label text="Numéro de sécurité sociale:"/>
+    <TextField fx:id="numSecuTextField"/>
+    <Label text="Troubles médicaux:"/>
+    <TextField fx:id="troublesMedicauxTextField"/>
+    <Button text="Valider" onAction="#handleValider"/>
+</VBox>

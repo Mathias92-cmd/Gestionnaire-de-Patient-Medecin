@@ -1,0 +1,185 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/vcs.xml
+
+# VSCode
+.vscode/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+
+# Gradle
+.gradle/
+build/
+out/
+!gradle-wrapper.jar
+gradle-app.setting
+.gradle-cache/
+
+# JetBrains (IntelliJ IDEA, PyCharm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.class
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Folder config file
+.DIRECTORY
+
+# Recycle Bin used on file shares
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.nfs*
+
+# SonarLint
+.sonarlint/
+
+# Checkstyle
+checkstyle/
+checkstyle-reports/
+*.checkstyle
+
+# General
+logs/
+*.log
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Maven
+target/
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+
+# Java Web Application
+*.war
+*.ear
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine
+*.vagrant
+*.box
+*.ovf
+*.ova
+*.vmdk
+*.vdi
+*.qcow2
+*.vagrantfile
+
+# IDE - all IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# All other files that might appear
+*.tmp
+*.bak
+*.old
+*.orig
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.class
+*.dll
+*.exe
+*.out
+*.so
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Libraries #
+*.lib
+*.a
+*.la
+*.lo
+*.def
+
+# Object files #
+*.slo
+*.lo
+*.o
+*.obj
+
+# Debug files #
+*.gch
+*.pch
